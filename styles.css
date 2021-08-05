@@ -106,6 +106,10 @@ main {
     cursor: pointer;
 }
 
+.arrow-inverted {
+    transform: rotate(180deg);
+}
+
 .faq-quest-box {
     display: flex;
     justify-content: space-between;

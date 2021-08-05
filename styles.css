@@ -46,7 +46,7 @@ main {
 .container {
     background-color: #fff;
     max-width: 800px;
-    min-height: 400px;
+    height: 500px;
     border-radius: 1.5rem;
     display: flex;
     align-items: center;
@@ -98,6 +98,12 @@ main {
 .faq-list-item {
     padding: 0.5rem 0;
     border-bottom: 1px solid var(--grey-divider);
+    max-width: 100%;
+}
+
+.arrow {
+    padding: .5rem;
+    cursor: pointer;
 }
 
 .faq-quest-box {
@@ -108,5 +114,16 @@ main {
 }
 
 .faq-answer {
+    display: none;
     padding: 0.5rem 0;
 }
+
+.faq-question-bold {
+    font-weight: 700;
+}
+
+.faq-answer-show {
+    display: block;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
